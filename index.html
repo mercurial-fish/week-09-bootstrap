@@ -68,24 +68,89 @@ Elements should stack vertically when the window is small
         </div>
     </nav>
 
-    <div class="container p-5 bg-info bg-opacity-25 border rounded border-info border-2 border-opacity-75">
+<div class="container p-3 mx-auto bg-primary bg-opacity-25 rounded">
+    <h1 class="text-center text-light fw-bold p-3">Self-Care</h1>
+    <div>
+        <p class="text-center text-light fs-5 p-3 m-3">
+            In this day and age of burnout and emotional exhaustion and overwhelm, self-care is more important than ever.
+            However, a lot of people will only start taking care of themselves AFTER they are burnt-out. It's like if someone
+            kept driving their car around until it was completely out of gas and then they are forced to walk to the gas station
+            to fill up a container. It is so much extra work and effort and you're not really as full as you need to be.
+
+            Good self-care is preventative and it needs to be addressed on all levels of who we are: Mind, body, and spirit. This 
+            site provides ideas and resources that will help you establish and maintain your self-care routine. All you have to do is click
+            on the area you want to work on and follow the tab that interests you the most and we'll help you from there.
+        </p>
+    </div>
+</div>
+
+    <div id="carouselOfImages" class="carousel slide p-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img 
+                class="mx-auto d-block w-75"
+                src="https://www.verywellmind.com/thmb/MQWhY7u5mTDfaO4vgDHRvnHYcaA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-938890492-becc3fc4757849bea672f148454943f9.jpg" 
+                alt="Photo of woman meditating">
+
+            </div>
+            <div class="carousel-item">
+                <img 
+                class="mx-auto d-block w-75" 
+                src="https://www.berkeleywellbeing.com/uploads/1/9/4/8/19481349/daily-journaling_orig.jpg" 
+                alt="Photo of person writing in journal">
+
+            </div>
+            <div class="carousel-item">
+                <img 
+                class="mx-auto d-block w-75" 
+                src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2019-8/couple-hiking-mountain-climbing-1296x728-header.jpg?w=1155&h=1528" 
+                alt="Photo of two people hiking">
+
+            </div>
+            <div class="carousel-item">
+                <img 
+                class="mx-auto d-block w-75"
+                src="https://images.everydayhealth.com/images/natural-insomnia-aids-00-intro-alt-1440x810.jpg" 
+                alt="Photo of woman sleeping">
+            </div>
+            <div class="carousel-item">
+                <img 
+                class="mx-auto d-block w-75" 
+                src="https://images.theconversation.com/files/361577/original/file-20201005-18-lmf7w7.jpg?ixlib=rb-1.1.0&rect=142%2C16%2C5464%2C3715&q=45&auto=format&w=926&fit=clip" 
+                alt="Photo of woman reading">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+    </div>
+
+    <div class="container text-light p-5 bg-info bg-opacity-50 rounded">
         <h3 class="text-center fw-bold p-5">Join Our Mailing List</h3>
-        <div class="mb-3">
+        <div class="mb-3 fs-5">
             <label for="firstName" class="form-label">First Name</label>
             <input type="text" class="form-control" id="firstName">
         </div>
-        <div class="mb-3">
+        <div class="mb-3 fs-5">
             <label for="lastName" class="form-label">Last Name</label>
             <input type="text" class="form-control" id="lastName">
         </div>
-        <div class="mb-3">
+        <div class="mb-3 fs-5">
             <label for="emailAddress" class="form-label">Email Address</label>
             <input type="email" class="form-control" id="emailAddress">
         </div>
-    </div>
+        <div class="mb-3 text-center">
+            <button type="button" class="btn btn-primary">Submit</button>
 
-    <!--TODO    1. Images for Self Care - Do carousel for someone meditating, someone journaling, someone hiking, sleeping, reading
-                2. Write something about self-care
+        </div>
+    </div>
 
     </body>
 </html>
