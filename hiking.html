@@ -9,13 +9,25 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
 </head>
+
+<!--REVIEW The purpose of this page is to show a more detailed template of what a page would look like under a section.
+In this example, when the user clicks on hiking, they will be guided to the hiking page that provides a blurb about the benefits of hiking,
+along with some information about where to go on hikes. That's how the pages would work: Blurb about the benefits and then resources/ideas on how/when/where
+to get started-->
+
 <body class="container bg-danger bg-opacity-10">
+        <!--NOTE creates a container for the page and gives the page a background color-->
+
     <nav class="navbar navbar-expand-sm bg-danger rounded p-3 m-3">
+                <!--NOTE creates the navigation bar-->
+
         <a class="navbar-brand text-light fw-bold fs-3" href="./index.html">Self-Care</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+                <!--NOTE anchors the home page under the word "Self-Care" and turns it into a button-->
+
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
@@ -61,18 +73,24 @@
         </div>
     </nav>
 
-    <!--TODO style headings. Use Bootstrap grid to form page. Get images of a few of these creeks and make cards-->
-<div class="container p-3 mx-auto bg-warning bg-opacity-75 rounded">
+        <!--NOTE This creates the options on the navbar. Each option is a dropdown with more options.-->
+
+<section class="container p-3 mx-auto bg-warning bg-opacity-75 rounded">
     <h1 class="text-center text-light fw-bold p-3">Hiking</h1>
     <div>
-        <p class="text-center text-light fs-5 p-3 m-3">Hiking is one of the most effective ways you can get your body moving and practice mindfulness.
+        <p class="text-center text-light fs-5 p-3 m-3">
+
+            Hiking is one of the most effective ways you can get your body moving and practice mindfulness.
             Nature overwhelms your senses and forces you stay present in the moment. And you can't get too lost
             in thought, or else you might stumble. The various inclines, the obstacles you have to get around,
             and uneven paths will get your heart pumping, as well as work muscles you probably haven't used in a while.
+
         </p>
     </div>
-</div>
-    <div class="container text-center mb-5 mt-5">
+</section>
+<!--NOTE the above section provides a container for the blurb, a background color, font size and font weight-->
+
+    <section class="container text-center mb-5 mt-5">
         <div class="row">
             <div class="col-md p-3">
                 <div id="card-1" class="card bg-success bg-opacity-25">
@@ -141,9 +159,13 @@
                     </div>
                 </div>
 
-            </div>
+    </section>
 
-    <div class="container p-3 mx-auto bg-info bg-opacity-75 rounded">
+    <!--NOTE The above section creates cards for each image and provides the name of each place-->
+
+    <!--NOTE The section below is a table including the name, locations, length and difficulties of each hike.-->
+
+    <section class="container p-3 mx-auto bg-info bg-opacity-75 rounded">
 
         <h2 class="text-center text-light fw-bold">Check out this list below for trails in your area!</h2>
             <table class="table table-info table-striped">
@@ -186,4 +208,4 @@
                 </tr>
             </tbody>
         </table>
-    </div>
+    </section>
